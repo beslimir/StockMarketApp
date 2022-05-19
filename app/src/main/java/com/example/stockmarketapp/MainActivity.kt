@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
             StockMarketAppTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.onBackground
+                    color = MaterialTheme.colors.background
                 ) {
                     DestinationsNavHost(navGraph = NavGraphs.root)
                 }

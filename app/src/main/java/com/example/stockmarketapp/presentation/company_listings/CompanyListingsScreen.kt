@@ -64,6 +64,7 @@ fun CompanyListingsScreen(
                             .clickable {
                                 //TODO: Navigate to details screen
                             }
+                            .padding(16.dp)
                     )
                     if (i < state.companies.size) {
                         Divider(

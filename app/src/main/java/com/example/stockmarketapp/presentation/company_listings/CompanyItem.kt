@@ -16,7 +16,7 @@ import com.example.stockmarketapp.domain.model.CompanyListing
 @Composable
 fun CompanyItem(
     company: CompanyListing,
-    modifier: Modifier = Modifier,
+    modifier: Modifier = Modifier
 ) {
     Row(
         modifier = modifier,
@@ -30,7 +30,7 @@ fun CompanyItem(
             ) {
                 Text(
                     text = company.name,
-                    fontWeight = FontWeight.Bold,
+                    fontWeight = FontWeight.SemiBold,
                     fontSize = 16.sp,
                     color = MaterialTheme.colors.onBackground,
                     overflow = TextOverflow.Ellipsis,

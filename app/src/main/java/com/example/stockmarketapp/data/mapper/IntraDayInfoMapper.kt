@@ -1,8 +1,6 @@
 package com.example.stockmarketapp.data.mapper
 
 import android.annotation.SuppressLint
-import android.os.Build
-import androidx.annotation.RequiresApi
 import com.example.stockmarketapp.data.remote.dto.IntraDayInfoDTO
 import com.example.stockmarketapp.domain.model.IntraDayInfo
 import java.time.LocalDateTime
